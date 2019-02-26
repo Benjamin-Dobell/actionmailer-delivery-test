@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Benjamin-Dobell/actionmailer-delivery-gem-test.git
+  revision: 8a5ceb0fd75a6ff2452c99722d46a21863dee37b
+  specs:
+    foomailer (1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -199,6 +205,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  foomailer!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
