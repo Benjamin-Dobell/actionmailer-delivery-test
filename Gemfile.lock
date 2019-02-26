@@ -4,6 +4,19 @@ GIT
   specs:
     foomailer (1.0.0)
 
+GIT
+  remote: https://github.com/Benjamin-Dobell/rails.git
+  revision: fc35022cadb7790464a22bd82cd3a6f7d76747a2
+  branch: 5-2/actionmailer/dynamic_settings
+  glob: actionmailer/*.gemspec
+  specs:
+    actionmailer (5.2.2)
+      actionpack (= 5.2.2)
+      actionview (= 5.2.2)
+      activejob (= 5.2.2)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -11,12 +24,6 @@ GEM
       actionpack (= 5.2.2)
       nio4r (~> 2.0)
       websocket-driver (>= 0.6.1)
-    actionmailer (5.2.2)
-      actionpack (= 5.2.2)
-      actionview (= 5.2.2)
-      activejob (= 5.2.2)
-      mail (~> 2.5, >= 2.5.4)
-      rails-dom-testing (~> 2.0)
     actionpack (5.2.2)
       actionview (= 5.2.2)
       activesupport (= 5.2.2)
@@ -200,6 +207,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionmailer!
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
