@@ -71,7 +71,7 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :foo
   config.action_mailer.foo_settings = {
-      prop_test: true
+      test_prop: true
   }
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
