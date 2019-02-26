@@ -37,7 +37,7 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :foo
   config.action_mailer.foo_settings = {
-      prop_test: true
+      test_prop: true
   }
 
   # Print deprecation notices to the Rails logger.
